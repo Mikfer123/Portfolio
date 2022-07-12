@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioWebsite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kantumruy+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar__list">
+            <li class="navbar__list__item">
+                <a class="navbar__list__item__link" href="#about">about</a>
+            </li>
+            <li class="navbar__list__item">
+                <a class="navbar__list__item__link" href="#portfolio">portfolio</a>
+            </li>
+            <li class="navbar__list__item">
+                <a class="navbar__list__item__link" href="#contact">contact</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="about" class="about">
+        <div class="about__container">
+            <h1 class="about__container__header">Hi, I'm Mikołaj</h1>
+            <p class="about__container__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed semper lorem consequat arcu imperdiet, aliquet posuere mi finibus.
+                Donec sed nisi quis tortor condimentum egestas. Aenean at ultrices sem, ac egestas lorem.
+                Quisque a fermentum tortor.
+                Phasellus rhoncus viverra lectus, vel posuere neque molestie quis.
+                Fusce tristique purus id mauris hendrerit accumsan.
+                Aenean in maximus sem, vitae tincidunt turpis.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. N
+                ullam sed sodales nunc, non pellentesque enim.
+            </p>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio__grid">
+            <div class="portfolio__grid__project">
+                <a class="portfolio__grid__project__link" href="#popup-picture-1">
+                    <h1 class="Portfolio__grid__project__header">ResponsiveShopDesing</h1>
+                    <img class="portfolio__grid__project__img" src="img/shop 500x500.png" alt="A small picture of ResponsiveShopDesign">
+                </a>
+            </div>
+            <div class="portfolio__grid__project">
+                <a class="portfolio__grid__project__link" href="#popup-picture-2">
+                    <h1 class="Portfolio__grid__project__header">IntroductionForm</h1>
+                    <img class="portfolio__grid__project__img" src="img/form 500x500.png" alt="A small picture of IntroductionForm">
+                </a>
+            </div>
+            <div id="portfolio-second-part" class="portfolio__grid__project">
+                <a class="portfolio__grid__project__link" href="#popup-picture-3">
+                    <h1 class="Portfolio__grid__project__header">SizingSquares</h1>
+                    <img class="portfolio__grid__project__img" src="img/squares 500x500.png" alt="A small picture of SizingSquares">
+                </a>
+            </div>
+            <div class="portfolio__grid__project">
+                <a class="portfolio__grid__project__link" href="#popup-picture-4">
+                    <h1 class="Portfolio__grid__project__header">SunAnimation</h1>
+                    <img class="portfolio__grid__project__img" src="img/sun 500x500.png" alt="A small picture of SunAnimation">
+                </a>
+            </div>
+        </div>
+        <div id="popup-picture-1" href="#portfolio" class="portfolio__popup">
+            <a class="portfolio__popup__close" href="#portfolio">x</a>
+            <img class="portfolio__popup__img" src="img/shop.png" alt="A big picture of ResponsiveShopDesign">
+        </div>
+        <div id="popup-picture-2" class="portfolio__popup">
+            <a class="portfolio__popup__close" href="#portfolio">x</a>
+            <img id="popup-img-2" class="portfolio__popup__img" src="img/form.png" alt="A big picture of IntroductionForm">
+        </div>
+        <div id="popup-picture-3" class="portfolio__popup">
+            <a class="portfolio__popup__close" href="#portfolio-second-part">x</a>
+            <img class="portfolio__popup__img" src="img/squares.png" alt="A big picture of SizingSquares">
+        </div>
+        <div id="popup-picture-4" class="portfolio__popup">
+            <div></div>
+            <a class="portfolio__popup__close" href="#portfolio-second-part">x</a>
+            <img class="portfolio__popup__img" src="img/sun.png" alt="A big picture of SunAnimation">
+        </div>
+    </section>
+    <footer id="contact" class="contact">
+        <a href="https://www.facebook.com/ferek.mikolaj" id="facebook" class="contact__link">Mikołaj Ferek</a>
+        <a href="https://www.instagram.com/wisniowyziomal/" id="instagram" class="contact__link">@wisniowyziomal</a>
+        <a href="mailto: ferek.mikolaj@gmail.com" id="gmail" class="contact__link">ferek.mikolaj@gmail.com</a>
+        <a href="https://github.com/Mikfer123" id="github" class="contact__link">Mikfer123</a>
+        <a href="https://www.linkedin.com/in/miko%C5%82aj-ferek-6181b9243/" id="linkedin" class="contact__link">Mikołaj Ferek</a>
+    </footer>
+</body>
+</html>
